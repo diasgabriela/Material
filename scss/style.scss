@@ -1,0 +1,57 @@
+.header{
+    height: 30vh;
+    margin-top: 10vh;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    align-items: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+.header-text .item1{
+    padding-top: 7%;
+    font-size: 3.25rem;
+    color: white;
+}
+
+.header-text .item2{
+    font-size: 1.25rem
+}
+
+.posts .title{
+    font-size: 2rem;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts{
+    background-color: white;
+}
+
+.adjacent{
+    background-color: aliceblue;
+}
